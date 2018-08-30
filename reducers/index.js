@@ -1,6 +1,7 @@
 import actionTypes from 'ACTIONS/actionTypes'
+import { initialStore } from 'STORE'
 
-export default (state = exampleInitialState, action) => {
+export default (state = initialStore, action) => {
     switch (action.type) {
         case actionTypes.TICK:
             return Object.assign({}, state, {

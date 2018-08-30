@@ -12,6 +12,7 @@ module.exports = withSass({
                     HOCS: path.resolve(__dirname, 'hocs/'),
                     SERVICES: path.resolve(__dirname, 'services/'),
                     STYLES: path.resolve(__dirname, 'styles/'),
+                    STORE: path.resolve(__dirname, 'store/'),
                     REDUCERS: path.resolve(__dirname, 'reducers/'),
                     ACTIONS: path.resolve(__dirname, 'actions/'),
                 }
