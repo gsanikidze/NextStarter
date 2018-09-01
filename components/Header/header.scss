@@ -1,8 +1,12 @@
+@import 'STYLES/ui_vars.scss';
+
 #header{
-    width: 100%;
-    height: 50px;
-    background-color: gainsboro;
     display: flex;
     align-items: center;
-    padding: auto 24px;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: $color_primery;
+    font-family: $font_main_family;
+    color: $color_white;
 }

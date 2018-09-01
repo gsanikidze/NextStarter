@@ -1,8 +1,11 @@
-.main_paragraph{
-    color: purple;
-    font-size: 20px;
-    text-align: center;
+@import 'STYLES/ui_vars.scss';
+
+body{
+    background-color: $color_dark;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $font_main_family;
+    color: $color_white;
     font-weight: bold;
-    margin-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }

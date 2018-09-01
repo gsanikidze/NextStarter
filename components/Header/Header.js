@@ -6,7 +6,7 @@ export default () => {
     return (
         <div id="header">
             <div>
-                Header Component
+                Next Starter With Redux and Sass
             </div>
         </div>
     )

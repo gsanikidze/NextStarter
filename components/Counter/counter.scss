@@ -1,0 +1,43 @@
+@import 'STYLES/ui_vars';
+
+#counter{
+    margin: 32px auto;
+    width: 320px;
+    border: 4px solid $color_light_dark;
+    border-radius: 16px;
+    color: $color_white;
+    font-family: $font_main_family;
+
+    .counter_result{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border-radius: 12px 12px 0 0;
+        background-color: $color_primery;
+
+        div{
+            margin-left: 12px;
+        }
+    }
+
+    .counter_controller {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 100;
+        height: 40px;
+
+        div{
+            cursor: pointer;
+        }
+
+        .devider{
+            width: 1px;
+            height: 100%;
+            border-right: 4px solid $color_light_dark;
+        }
+
+    }
+}
