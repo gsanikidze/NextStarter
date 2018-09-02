@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
 // redux
-import * as actions from 'ACTIONS'
+import { actionCreators } from 'ACTIONS'
 
 // styles
 import './counter.scss'
@@ -32,7 +32,7 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-    return { actions: bindActionCreators(actions, dispatch) }
+    return { actions: bindActionCreators(actionCreators, dispatch) }
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Counter)

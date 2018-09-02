@@ -1,13 +1,2 @@
-import actionTypes from './actionTypes'
-
-export const incrementCount = () => dispatch => {
-    return dispatch({ type: actionTypes.INCREMENT })
-}
-
-export const decrementCount = () => dispatch => {
-    return dispatch({ type: actionTypes.DECREMENT })
-}
-
-export const toggleHeader = () => dispatch => {
-    return dispatch({ type: actionTypes.TOGGLE_HEADER })
-}
+export { default as actionCreators } from './actionCreators'
+export { default as actionTypes } from './actionTypes'
