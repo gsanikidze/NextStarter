@@ -1,4 +1,10 @@
 {
+  "license": "MIT",
+  "author": {
+    "name": "Guram Sanikidze",
+    "email": "sanikidze.guram@gmail.com",
+    "url": "https://github.com/gsanikidze"
+  },
   "dependencies": {
     "@zeit/next-sass": "^0.2.0",
     "next": "^6.1.1",
