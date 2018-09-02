@@ -39,34 +39,34 @@ Build Version Will Be In `.next` Folder.
       |-- index.js `interface`
   |-- [Add Components here]
 
-- hocs (high order components)
+- hocs (High order components)
   |-- with-redux-store.js
   |-- [Add Hocs here]
 
 - pages
-  |-- index (home page)
-  |-- _app (connects react to redux)
-  |-- _document (here you can add meta tags an here is link with styles)
+  |-- index (Home page)
+  |-- _app (Connects react to redux)
+  |-- _document (Here you can add meta tags. Also here is link with styles)
   |-- [Add Pages here]
 
 - reducers (redux)
-  |-- counterReducer.js (sample reducer)
-  |-- headerReducer.js (sample reducer)
-  |-- index.js (interface)
-  |-- rootReducer (combine reducers)
+  |-- counterReducer.js (Sample reducer)
+  |-- headerReducer.js (Sample reducer)
+  |-- index.js (Interface)
+  |-- rootReducer (Combines reducers)
   |-- [Add Reducers here]
 
 - services (here you can work with api)
-  |-- index (interface)
+  |-- index (Interface)
 
 - store (redux)
-  |-- index (interface)
+  |-- index (Interface)
   |-- store
 
 - styles (main styles)
   |-- main.scss
-  |-- reset.scss (reset default styles)
-  |-- ui_vars.scss (ui variables: colors, typography...)
+  |-- reset.scss (Reset default styles)
+  |-- ui_vars.scss (User Interface variables: colors, typography...)
 
-- next.config.js (here is saved aliases and with this file NEXT.JS can read SASS files)
+- next.config.js (Here is saved aliases. Also with this file NEXT.JS can read SASS files)
 ```
