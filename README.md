@@ -27,7 +27,7 @@ Build Version Will Be In `.next` Folder.
 \* You can use npm instead of yarn (just write npm instead yarn). \*
 
 ## Architecture
-
+```
 - actions `redux`
   - actionCreators.js
   - actionTypes.js
@@ -61,3 +61,4 @@ Build Version Will Be In `.next` Folder.
   - reset.scss `reset default styles`
   - ui_vars.scss `ui variables: colors, typography...`
 - next.config.js `here is saved aliases and with this file NEXT.JS can read SASS files`
+```
