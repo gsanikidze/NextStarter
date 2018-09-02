@@ -1,6 +1,18 @@
+@import 'STYLES/ui_vars.scss';
+
 #home_page{
     h3{
         text-align: center;
         margin-top: 40px;
+    }
+    .toggler{
+        margin: 0 auto;
+        display: block;
+        padding: 8px;
+        border-radius: 64px;
+        background-color: $color_secondary;
+        border: 1px solid $color_secondary;
+        color: $color_white;
+        cursor: pointer;
     }
 }

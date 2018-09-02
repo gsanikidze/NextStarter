@@ -28,7 +28,7 @@ const Counter = ({ count, actions }) => {
 
 // connected component with redux
 function mapStateToProps(state) {
-    return { count: state.count }
+    return { count: state.counterReducer.count }
 }
 
 function mapDispatchToProps(dispatch) {

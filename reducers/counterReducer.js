@@ -1,7 +1,10 @@
 import actionTypes from 'ACTIONS/actionTypes'
-import { initialStore } from 'STORE'
 
-export default (state = initialStore, action) => {
+const initialState = {
+    count: 0
+}
+
+export default (state = initialState, action) => {
     switch (action.type) {
         case actionTypes.INCREMENT:
             return { ...state, count: state.count + 1 }

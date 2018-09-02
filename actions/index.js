@@ -7,3 +7,7 @@ export const incrementCount = () => dispatch => {
 export const decrementCount = () => dispatch => {
     return dispatch({ type: actionTypes.DECREMENT })
 }
+
+export const toggleHeader = () => dispatch => {
+    return dispatch({ type: actionTypes.TOGGLE_HEADER })
+}

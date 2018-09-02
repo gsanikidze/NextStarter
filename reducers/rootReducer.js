@@ -1,11 +1,12 @@
-// import { combineReducers } from 'redux'
+import { combineReducers } from 'redux'
 
 // reducers
 import counterReducer from './counterReducer'
+import headerReducer from './headerReducer'
 
-// TODO: uncoment after multiple reducers and export rootReducer as a default
-// const rootReducer = combineReducers({
-//     counterReducer
-// })
+const rootReducer = combineReducers({
+    counterReducer,
+    headerReducer
+})
 
-export default counterReducer
+export default rootReducer
