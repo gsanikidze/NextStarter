@@ -45,6 +45,7 @@ Build Version Will Be In `.next` Folder.
 
 - pages
   |-- index (Home page)
+  |-- About (sample page for testing next-router)
   |-- _app (Connects react to redux)
   |-- _document (Here you can add meta tags. Also here is link with styles)
   |-- [Add Pages here]
@@ -69,4 +70,8 @@ Build Version Will Be In `.next` Folder.
   |-- ui_vars.scss (User Interface variables: colors, typography...)
 
 - next.config.js (Here is saved aliases. Also with this file NEXT.JS can read SASS files)
+
+- router.js (here you can add your routes)
+
+- server.js (server configuration)
 ```

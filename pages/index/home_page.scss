@@ -15,4 +15,11 @@
         color: $color_white;
         cursor: pointer;
     }
+    a{
+        text-align: center;
+        text-decoration: none;
+        color: $color_white;
+        display: block;
+        margin-top: 16px;
+    }
 }

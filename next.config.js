@@ -15,6 +15,7 @@ module.exports = withSass({
                     STORE: path.resolve(__dirname, 'store/'),
                     REDUCERS: path.resolve(__dirname, 'reducers/'),
                     ACTIONS: path.resolve(__dirname, 'actions/'),
+                    ROUTES: path.resolve(__dirname, 'routes.js'),
                 }
             }
         }

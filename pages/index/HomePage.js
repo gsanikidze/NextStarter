@@ -14,6 +14,9 @@ import 'STYLES/main.scss'
 import 'STYLES/reset.scss'
 import './home_page.scss'
 
+// other
+import { Link } from 'ROUTES'
+
 const HomePage = ({ toggleHeader, actions }) => {
     return (
         <div id="home_page">
@@ -21,6 +24,7 @@ const HomePage = ({ toggleHeader, actions }) => {
             <h3>Sample Redux Component</h3>
             <Counter />
             <button className="toggler" onClick={actions.toggleHeader}>Toggle Header</button>
+            <Link route="AboutRoute" params={{ param: 'This Is Passed By Query!' }}>Router Sample</Link>
         </div>
     )
 }
