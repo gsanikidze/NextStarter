@@ -1,16 +1,18 @@
-const PORT = process.env.PORT || '3000'
+const PORT = process.env.PORT || '3000';
 
 // server
-const next = require('next')
-const routes = require('./routes')
-const app = next({ dev: process.env.NODE_ENV !== 'production' })
-const handler = routes.getRequestHandler(app)
+const next = require('next');
+const routes = require('./routes');
+
+const app = next({ dev: process.env.NODE_ENV !== 'production' });
+const handler = routes.getRequestHandler(app);
 
 // express
-const express = require('express')
+const express = require('express'); // eslint-disable-line
+
 app.prepare().then(() => {
-    express().use(handler).listen(PORT, (err) => {
-        if (err) throw err
-        console.log('> App Is Ready On Port: ', PORT)
-    })
-})
+  express().use(handler).listen(PORT, (err) => {
+    if (err) throw err;
+    console.log('> App Is Ready On Port: ', PORT); // eslint-disable-line
+  });
+});

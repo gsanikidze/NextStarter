@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "react/button-has-type": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "import/no-unresolved": "off",
+        "react/forbid-prop-types": "off",
+        "react/no-array-index-key": "off",
+        "no-underscore-dangle": "off",
+        "jsx-a11y/anchor-is-valid": "off"
+    }
+}
