@@ -4,6 +4,7 @@ const initialState = {
   toggleHeader: false,
 };
 
+// counterReducer :: (object, function) -> object
 export default (state = initialState, action) => {
   switch (action.type) {
     case actionTypes.TOGGLE_HEADER:

@@ -4,6 +4,7 @@ const initialState = {
   count: 0,
 };
 
+// counterReducer :: (object, function) -> object
 export default (state = initialState, action) => {
   switch (action.type) {
     case actionTypes.INCREMENT:
