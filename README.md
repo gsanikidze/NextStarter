@@ -72,6 +72,8 @@ Build Version Will Be In `.next` Folder.
   |-- reset.scss (Reset default styles)
   |-- ui_vars.scss (User Interface variables: colors, typography...)
 
+- alias.js (here are stored all aliases)
+
 - .babelrc (babel configuration)
 
 - .eslintrc (eslint configuration)
@@ -83,4 +85,6 @@ Build Version Will Be In `.next` Folder.
 - router.js (here you can add your routes)
 
 - server.js (server configuration)
+
+- webpack.config.js (has only 1 reason, path intellisense inside text editor)
 ```
