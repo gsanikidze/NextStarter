@@ -4,7 +4,7 @@ import React from 'react';
 import './header.scss';
 
 type Props = {
-  toggleHeader: boolean
+  toggleHeader: boolean,
 }
 
 const Header = ({ toggleHeader }: Props) => (
