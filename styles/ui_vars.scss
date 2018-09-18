@@ -34,13 +34,13 @@ $sizing_px_large: $unit_large + px;
 $sizing_px_x_large: $unit_x_large + px;
 $sizing_px_xx_large: $unit_xx_large +  px;
 
-$sizing_pr_tiniest: $unit_tiniest + %;
-$sizing_pr_tiny: $unit_tiny + %;
-$sizing_pr_small: $unit_small + %;
-$sizing_pr_base: $unit_base + %;
-$sizing_pr_large: $unit_large + %;
-$sizing_pr_x_large: $unit_x_large + %;
-$sizing_pr_xx_large: $unit_xx_large + %;
+$sizing_pr_tiniest: $unit_tiniest + unquote('%');
+$sizing_pr_tiny: $unit_tiny + unquote('%');
+$sizing_pr_small: $unit_small + unquote('%');
+$sizing_pr_base: $unit_base + unquote('%');
+$sizing_pr_large: $unit_large + unquote('%');
+$sizing_pr_x_large: $unit_x_large + unquote('%');
+$sizing_pr_xx_large: $unit_xx_large + unquote('%');
 $sizing_pr_full: 100%;
 
 $sizing_vh_tiniest: $unit_tiniest + vh;
