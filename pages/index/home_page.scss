@@ -3,16 +3,16 @@
 #home_page{
     h3{
         text-align: center;
-        margin-top: 40px;
+        margin-top: $sizing_px_large;
     }
     .toggler{
         margin: 0 auto;
         display: block;
         padding: 8px;
-        border-radius: 64px;
+        border-radius: $radius_70;
         background-color: $color_secondary;
         border: 1px solid $color_secondary;
-        color: $color_white;
+        color: $color_80_gray;
         cursor: pointer;
     }
     a{
@@ -21,5 +21,9 @@
         color: $color_white;
         display: block;
         margin-top: 16px;
+    }
+    button{
+        margin: 0 auto;
+        display: block;
     }
 }

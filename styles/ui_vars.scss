@@ -1,13 +1,82 @@
-// colors
-$color_primery: #5d3cbf;
-$color_secondary: #ff0073;
-$color_dark: #1d1d1d;
-$color_light_dark: #3e3e3e;
+// -------------------------------------------------> [COLORS]
+$color_primary: #782EFF;
+$color_secondary: #38FFDA;
+$color_red: #FF2D63;
+$color_yellow: #F5DD29;
+$color_green: #2af59a;
+$color_dark: rgb(24, 24, 24);
+$color_80_gray: #2E3E4F;
+$color_70_gray: #515E6D;
+$color_60_gray: #687480;
+$color_50_gray: #969EA7;
+$color_40_gray: #C5C9CE;
+$color_30_gray: #DCDFE1;
+$color_20_gray: #E8EAEC;
+$color_10_gray: #F3F4F5;
 $color_white: white;
+// -------------------------------------------------< [COLORS]
 
-// typography
-$font_main_family: sans-serif;
-$font_p_size: 16px;
-$font_h1_size: 36px;
+// -------------------------------------------------> [MEASUREMENT]
+$unit_tiniest: 4;
+$unit_tiny: 8;
+$unit_small: 16;
+$unit_base: 24;
+$unit_large: 48;
+$unit_x_large: 64;
+$unit_xx_large: 88;
+$unit_xxx_large: 120;
 
-// other
+$sizing_px_tiniest: $unit_tiniest + px;
+$sizing_px_tiny: $unit_tiny + px;
+$sizing_px_small: $unit_small + px;
+$sizing_px_base: $unit_base + px;
+$sizing_px_large: $unit_large + px;
+$sizing_px_x_large: $unit_x_large + px;
+$sizing_px_xx_large: $unit_xx_large +  px;
+
+$sizing_pr_tiniest: $unit_tiniest + %;
+$sizing_pr_tiny: $unit_tiny + %;
+$sizing_pr_small: $unit_small + %;
+$sizing_pr_base: $unit_base + %;
+$sizing_pr_large: $unit_large + %;
+$sizing_pr_x_large: $unit_x_large + %;
+$sizing_pr_xx_large: $unit_xx_large + %;
+$sizing_pr_full: 100%;
+
+$sizing_vh_tiniest: $unit_tiniest + vh;
+$sizing_vh_tiny: $unit_tiny + vh;
+$sizing_vh_small: $unit_small + vh;
+$sizing_vh_base: $unit_base + vh;
+$sizing_vh_large: $unit_large + vh;
+$sizing_vh_x_large: $unit_x_large + vh;
+$sizing_vh_xx_large: $unit_xx_large + vh;
+$sizing_vh_full: 100vh;
+// -------------------------------------------------< [MEASUREMENT]
+
+// -------------------------------------------------> [TYPOGRAPHY]
+$font_family_primary: Avenir, Open Sans, sans-serif;
+$font_family_secondary: Georgia, "Times New Roman", Times, serif;
+
+$font_size_tiny: 14px;
+$font_size_small: $unit_small + px;
+$font_size_base: $unit_base + px;
+$font_size_large: $unit_large + px;
+$font_size_x_large: $unit_x_large + px;
+
+$font_weight_thin: 100;
+$font_weight_base: 500;
+$font_weight_bold: 900;
+
+$font_line_height: 1.6;
+// -------------------------------------------------< [TYPOGRAPHY]
+
+// -------------------------------------------------> [RADIUSES]
+$radius_10: $unit_tiniest + px;
+$radius_20: $unit_tiny + px;
+$radius_30: $unit_small + px;
+$radius_40: $unit_base + px;
+$radius_50: $unit_large + px;
+$radius_60: $unit_x_large + px;
+$radius_70: $unit_xx_large + px;
+$radius_80: $sizing_pr_x_large;
+// -------------------------------------------------< [RADIUSES]

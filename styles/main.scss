@@ -1,14 +1,37 @@
 @import 'STYLES/ui_vars.scss';
 
-body{
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+body {
     background-color: $color_dark;
-    color: white;
-    text-align: center;
-    font-family: Open Sans;
+    color: $color_80_gray;
+    font-family: $font_family_primary;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: $font_main_family;
+    font-family: $font_family_primary;
     color: $color_white;
     font-weight: bold;
 }
+
+code{
+    padding: $sizing_px_tiniest $sizing_px_tiny;
+    margin: $sizing_px_tiniest;
+    background-color: $color_10_gray;
+    border-radius: $radius_10;
+    border: 1px solid $color_30_gray;
+    color: $color_70_gray;
+    font-family: $font_family_primary;
+}
+
+// -------------------------------------------------> [MAIN CLASSES]
+.container_fluid{
+    width: $sizing_pr_full;
+}
+.container{
+    width: $sizing_pr_xx_large;
+    margin: 0 auto;
+}
+// -------------------------------------------------< [MAIN CLASSES]
