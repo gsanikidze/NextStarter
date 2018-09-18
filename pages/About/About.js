@@ -9,7 +9,7 @@ export default class About extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ color: 'white', textAlign: 'center' }}>
         {/* eslint-disable-next-line */}
         {this.props.query.param }
       </div>

@@ -6,6 +6,7 @@ module.exports = withSass({
     const updatedConfig = {
       ...config,
       resolve: {
+        //  add aliases ./webpack.config.js, for path intellisense
         alias: {
           PAGES: path.resolve(__dirname, 'pages/'),
           COMPONENTS: path.resolve(__dirname, 'components/'),
