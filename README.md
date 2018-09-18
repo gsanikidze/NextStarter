@@ -38,6 +38,9 @@ Build Version Will Be In `.next` Folder.
       |-- header.scss `component styles`
       |-- index.js `interface`
   |-- [Add Components here]
+  
+- flow-typed (flow for next configuration)
+  |-- next.js.flow
 
 - hocs (High order components)
   |-- with-redux-store.js
@@ -68,6 +71,12 @@ Build Version Will Be In `.next` Folder.
   |-- main.scss
   |-- reset.scss (Reset default styles)
   |-- ui_vars.scss (User Interface variables: colors, typography...)
+
+- .babelrc (babel configuration)
+
+- .eslintrc (eslint configuration)
+
+- .flowconfig (flow configuration)
 
 - next.config.js (Here is saved aliases. Also with this file NEXT.JS can read SASS files)
 
