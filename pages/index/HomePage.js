@@ -9,6 +9,7 @@ import { actionCreators } from 'ACTIONS';
 // components
 import Header from 'COMPONENTS/Header';
 import Counter from 'COMPONENTS/Counter';
+import Button from 'COMPONENTS/Button';
 
 // styles
 import 'STYLES/main.scss';
@@ -25,6 +26,8 @@ const HomePage = ({ toggleHeader, actions }) => (
     <Counter />
     <button className="toggler" onClick={actions.toggleHeader}>Toggle Header</button>
     <Link route="AboutRoute" params={{ param: 'This Is Passed By Query!' }}><a>Router Sample</a></Link>
+    <br />
+    <Button>Check This Component To See Component With Flow</Button>
   </div>
 );
 

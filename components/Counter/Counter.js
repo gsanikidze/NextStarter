@@ -1,7 +1,7 @@
+// @flow
 import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import PropTypes from 'prop-types';
 
 // redux
 import { actionCreators } from 'ACTIONS';
@@ -9,8 +9,14 @@ import { actionCreators } from 'ACTIONS';
 // styles
 import './counter.scss';
 
+// props
+type Props = {
+  count: number,
+  actions: Object
+}
+
 // component
-const Counter = ({ count, actions }) => (
+const Counter = ({ count, actions }: Props) => (
   <div id="counter">
     <div className="counter_result">
       <div>Result: </div>
@@ -23,13 +29,6 @@ const Counter = ({ count, actions }) => (
     </div>
   </div>
 );
-
-// props
-Counter.propTypes = {
-  count: PropTypes.number.isRequired,
-  actions: PropTypes.object.isRequired,
-};
-
 
 // connected component with redux
 function mapStateToProps(state) {
