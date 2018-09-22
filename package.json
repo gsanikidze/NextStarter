@@ -6,9 +6,9 @@
     "url": "https://github.com/gsanikidze"
   },
   "dependencies": {
-    "@zeit/next-sass": "^0.2.0",
+    "@zeit/next-sass": "^1.0.1",
     "express": "^4.16.3",
-    "next": "^6.1.2",
+    "next": "^7.0.0",
     "next-routes": "^1.4.2",
     "node-sass": "^4.9.3",
     "prop-types": "^15.6.2",
