@@ -31,12 +31,13 @@ Build Version Will Be In `.next` Folder.
 - actions (redux)
   |-- actionCreators.js
   |-- actionTypes.js
+  |-- index.js (interface)
 
 - components (react)
   |-- Header
-      |-- Header.js `component self`
-      |-- header.scss `component styles`
-      |-- index.js `interface`
+      |-- Header.js (component self)
+      |-- header.scss (component styles)
+      |-- index.js (interface)
   |-- [Add Components here]
   
 - flow-typed (flow for next configuration)
