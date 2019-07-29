@@ -11,7 +11,7 @@
     "next": "^7.0.0",
     "next-routes": "^1.4.2",
     "node-sass": "^4.9.3",
-    "prop-types": "^15.6.2",
+    "prop-types": "^15.7.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-redux": "^5.0.7",
